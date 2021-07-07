@@ -1,5 +1,5 @@
 # Howzit
-A school project app mostly developed by me. This app lets users in the same wifi communicate with each other using Wifi Direct technology. 
+A school project app mostly developed by me (except QR authentication and handshaking). This app lets users in the same wifi communicate with each other using Wifi Direct technology. 
 Since it needs a handshake before starting a conversation, it has limited use cases.
 
 The first handshake is done via QR code reading and sharing in close proximity. After that the handshaking operation can be done when both users are in main activity of
