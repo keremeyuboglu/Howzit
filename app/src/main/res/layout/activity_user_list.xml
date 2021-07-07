@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:padding="4sp">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Refresh"
+            android:layout_marginHorizontal="4sp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Connect"
+            android:layout_marginHorizontal="4sp"></Button>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/customize"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Change Name"
+            android:layout_marginHorizontal="4sp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="8dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Users"
+            android:textSize="24sp"
+            >
+
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_list_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="8sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
