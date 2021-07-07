@@ -7,4 +7,12 @@ the app, they send signals to modem that they're open to chat.
 
 I have pushed dirty code, so it may take a while to build and run on Android Studio. The repo contains a built apk @app\build\outputs\apk\debug folder.
 
+### Some screenshots:
+
+<img src="https://user-images.githubusercontent.com/32223948/124740995-f4de7080-df23-11eb-9476-e52533b030ea.png" width="400" height="790">
+<img src="https://user-images.githubusercontent.com/32223948/124740423-75e93800-df23-11eb-8d5f-d6cd0557bd57.png" width="400" height="790">
+<img src="https://user-images.githubusercontent.com/32223948/124740878-dbd5bf80-df23-11eb-8f35-02a0ea1d265c.png" width="400" height="790">
+
+
+
 
