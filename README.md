@@ -7,6 +7,8 @@ the app, they send signals to modem that they're open to chat.
 
 I have pushed dirty code, so it may take a while to build and run on Android Studio. The repo contains a built apk @app\build\outputs\apk\debug folder.
 
+I don't recommend anyone doing anything using Wi-fi direct, it's unstable at its core and the provided library doesn't help resolving those issues.
+
 ### Some screenshots:
 
 <img src="https://user-images.githubusercontent.com/32223948/124740995-f4de7080-df23-11eb-9476-e52533b030ea.png" width="400" height="790">
