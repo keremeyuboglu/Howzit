@@ -8,6 +8,7 @@ the app, they send signals to modem that they're open to chat.
 I have pushed dirty code, so it may take a while to build and run on Android Studio. The repo contains a built apk @app\build\outputs\apk\debug folder.
 
 I don't recommend anyone doing anything using Wi-fi direct, it's unstable at its core and the provided library doesn't help resolving those issues.
+Also, the MVP is a rushed product with minimal time table left to produce, so there's no best practices in the code such as DI libraries and architectural patterns like MVVM(should have done it).
 
 ### Some screenshots:
 
